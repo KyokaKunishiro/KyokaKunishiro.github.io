@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<link rel="stylesheet" href="style.css">
+<title>Last Present</title>
+<script type="text/javascript" src="snapfit.js"></script>
+<script type="text/javascript" src="sample.js"></script>
+</head>
+<body>
+<h1>ジグソーパズル</h1>
+
+<div>好きな画像を選んでください</div>
+<select name="member" onchange="hyoji(this)">
+    <option value="">選択してください</option>
+    <option value='KazMax'>KazMax</option>
+    <option value='alphard_front'>イケメン</option>
+    <option value='landcruiser_'>・・・</option>
+    <option value='kawachi2'>川地さん？</option>
+  </select>
+
+
+<p>deleteキーを押すとシャッフルされます。returnキーを押すと全てのピースが正しい位置に移動します。<br>
+ダブルクリックで画像が回転します。</p>
+
+<button type="button" position = "absolute" onclick="ziguzo()">スタート！</button>
+
+<button type="button" position = "absolute" onclick="window.location.reload();">やり直す</button>
+
+<div></div>
+
+</body>
+</html>
